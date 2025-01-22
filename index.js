@@ -108,7 +108,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Game On');
+    res.send('Backend Working');
 })
 
 app.listen(port, () => {
